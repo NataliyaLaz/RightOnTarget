@@ -12,6 +12,7 @@
 		881565232866EFD900995898 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881565222866EFD900995898 /* ViewController.swift */; };
 		881565282866EFDB00995898 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 881565272866EFDB00995898 /* Assets.xcassets */; };
 		8815652B2866EFDB00995898 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 881565292866EFDB00995898 /* LaunchScreen.storyboard */; };
+		883B1A81286889EB008BFEBF /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883B1A80286889EB008BFEBF /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		881565272866EFDB00995898 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8815652A2866EFDB00995898 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8815652C2866EFDB00995898 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		883B1A80286889EB008BFEBF /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				8815651E2866EFD900995898 /* AppDelegate.swift */,
 				881565202866EFD900995898 /* SceneDelegate.swift */,
 				881565222866EFD900995898 /* ViewController.swift */,
+				883B1A80286889EB008BFEBF /* SecondViewController.swift */,
 				881565272866EFDB00995898 /* Assets.xcassets */,
 				881565292866EFDB00995898 /* LaunchScreen.storyboard */,
 				8815652C2866EFDB00995898 /* Info.plist */,
@@ -134,6 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				883B1A81286889EB008BFEBF /* SecondViewController.swift in Sources */,
 				881565232866EFD900995898 /* ViewController.swift in Sources */,
 				8815651F2866EFD900995898 /* AppDelegate.swift in Sources */,
 				881565212866EFD900995898 /* SceneDelegate.swift in Sources */,
@@ -287,7 +291,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.iosnichek.RightOnTarget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -315,7 +319,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.iosnichek.RightOnTarget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
